@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
-    <link rel="stylesheet" href="style2.css">
-</head>
-<body>
-    <header>
-        <a href="GroomMyGarden.html"><img src="assets/groom 3.png" alt="GroomMyGarden" width="60px"></a>
-        <H1>Inscrivez-vous à notre newsletter!</H1>
-        <p>
-          <table style="width:100%;">
-              </style>
-              <div class="Navbar">
-              <a href="NotreLogo.html">Notre Logo </a>
-              <a href="NotreIDGraphique.html">Notre identité graphique </a>
-              <a href="Marketing.html">Marketing </a>
-              <a href="NotreApp.html">Notre application </a>
-              <a href="contact.html">Notre Contact </a>
-                  
-              </div>
-          </table>
-          </p>
-    </header>
 
-    <!-- To write into the form we need a PHP script-->
-    <!-- for is an attribute which specifie which form element a label is bound to.
-    element is label-->
-    <!-- type is for the buttom-->
-    <div class="container">
-        <form action="action_page.php">
-      
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      
-          <input type="submit" value="Submit">
-      
-        </form>
-      </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+        <img id="logo" src="assets/groom 3.png" alt="" width="60px"></a>
+    <H1>Inscrivez-vous à notre NewsLetter</H1>
+<table style="width:100%;">
+    </style>
+    <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="Logo.html">Notre Logo</a></li>
+        <li><a href="IdGraphique.html">Notre identité graphique</a></li>
+        <li><a href="Marketing.html">Marketing</a></li>
+        <li><a href="App.html">Notre application</a></li>
+        <li><a href="Contact.html">Notre Contact</a</table> </li>
+    </ul>
+</table>
+</p> 
+</header>
+<div class="form">
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">E-mail</label>
+      <input type="text" id="lname" name="e-mail" placeholder="Your e-mail..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="France">France</option>
+        <option value="Italy">Italy</option>
+        <option value="usa">USA</option>
+      </select>
+    
+      <input type="submit" value="Submit">
+    </form>
+  </div>
 </body>
+
 </html>

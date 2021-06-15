@@ -1,51 +1,123 @@
-body {
-    background-image: url(assests/sharing.jpg);
-    background-size: cover;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-header{ 
+#logo{
+    margin-top: 10px;
+}
+.white{
+    color: white
+}
+header, footer {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-}
-
-image{
     background-color: #008334;
-
-}
-
-header{ 
-    background-color:#008334;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h1{
-    color:#ffffff;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-h3{
-     color: #ffffff;
-     font-family: 'Josefin Sans', sans-serif;
-    }
-
-H5{
-    color:#008334;
-    font-family: 'Josefin Sans', sans-serif;}
-
-p{
-    color:#008334;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-footer{
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-}
-table{
     color: white;
 }
 
-footer{ 
-    background-color: #008334;
-    color: #f2f2f2
+h5{
+    color: #008334;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    border: 2px solid #008334;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li:hover{
+    background-color: rgb(59, 59, 59);
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+video{
+    width: 100%;
+}
+div.marketing, p, h3{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #008334;
+    margin-left: 30px;
+}
+
+
+div.polaroid1 {
+    width: 22.5%;
+}
+
+div.polaroid2 {
+    width: 40%;
+}
+
+div.polaroid3 {
+    width: 80%;
+
+}
+
+div.moodboard1 {
+    width: 72%;
+}
+
+div.logo1{
+    width: 500px;
+}
+
+div.logo2{
+    width: 500px;
+}
+
+div.polaroid1, div.polaroid2, div.polaroid3, div.moodboard1, div.logo1, div.logo2{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    justify-content: center;
+}
+
+div.insta, div.facebook, div.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.moodboard{
+    position: absolute;
+    left: 350px;
+}
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    position: relative;
+    top: 50px;
+}
+
